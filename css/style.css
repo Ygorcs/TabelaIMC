@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.container{
+    width: 40%;
+    height: 90vh;
+    background-color: rgb(151, 151, 151);
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 2px solid aquamarine;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.container h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+.test{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.list-imc{
+    
+    width: 45%;
+    height: 50%;
+    margin: 10px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+
+.resultado{
+   
+    width: 45%;
+    height: 50%;
+    margin: 10px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+
+.calc-imc{
+    width: 100%;
+    /* border: 5px solid red; */
+    height: 70%;
+}
+
+
+
+form label, form input, form button{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+form label{
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form input{
+    margin-bottom: 15px;
+    height: 40px;
+    padding: 5px;
+    color: black;
+}
+
+form button{
+height: 50px;
+outline: 0;
+border: 2px solid aquamarine;
+cursor: pointer;
+border-radius: 50px;
+font-weight: bold;
+font-size: 20px;
+color: black;
+}
+
+form button:hover{
+    background-color: aquamarine;
+    border: 2px solid white;
+    width: 50.5%;
+    color: black;
+
+}
+
+.paragrafo-resultado, .bad{
+    text-align: center;
+    margin-top: 50px;
+    background-color: aquamarine;
+    padding: 20px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+
+}
+
+.bad{
+    background-color: rgb(248, 116, 122);
+
+}
+
+
+#result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+
+}
+
+
